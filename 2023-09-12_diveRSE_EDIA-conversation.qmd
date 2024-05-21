@@ -20,7 +20,7 @@ format:
 
 - Questions from the audience 
 
-# The orginal event {.inverse}
+# The original event {.inverse}
 
 - 
 

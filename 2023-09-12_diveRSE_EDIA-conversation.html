@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/clipboard/clipboard.min.js"></script>
-<script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/tabby.min.js"></script>
-<script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/popper.min.js"></script>
-<script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/tippy.umd.min.js"></script>
-<link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.336">
+<script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/clipboard/clipboard.min.js"></script>
+<script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/tabby.min.js"></script>
+<script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/popper.min.js"></script>
+<script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.549">
 
   <meta name="author" content="Ella Kaye">
   <meta name="dcterms.date" content="2023-09-12">
@@ -16,8 +16,8 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/dist/reveal.css">
+  <link rel="stylesheet" href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/dist/reveal.css">
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -30,78 +30,12 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for syntax highlighting */
-    pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-    pre > code.sourceCode > span:empty { height: 1.2em; }
-    .sourceCode { overflow: visible; }
-    code.sourceCode > span { color: inherit; text-decoration: inherit; }
-    div.sourceCode { margin: 1em 0; }
-    pre.sourceCode { margin: 0; }
-    @media screen {
-    div.sourceCode { overflow: auto; }
-    }
-    @media print {
-    pre > code.sourceCode { white-space: pre-wrap; }
-    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-    }
-    pre.numberSource code
-      { counter-reset: source-line 0; }
-    pre.numberSource code > span
-      { position: relative; left: -4em; counter-increment: source-line; }
-    pre.numberSource code > span > a:first-child::before
-      { content: counter(source-line);
-        position: relative; left: -1em; text-align: right; vertical-align: baseline;
-        border: none; display: inline-block;
-        -webkit-touch-callout: none; -webkit-user-select: none;
-        -khtml-user-select: none; -moz-user-select: none;
-        -ms-user-select: none; user-select: none;
-        padding: 0 4px; width: 4em;
-        color: #adadbd;
-      }
-    pre.numberSource { margin-left: 3em; border-left: 1px solid #adadbd;  padding-left: 4px; }
-    div.sourceCode
-      { color: #2e2e2f;  }
-    @media screen {
-    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-    }
-    code span { color: #2e2e2f; } /* Normal */
-    code span.al { color: #ae4240; } /* Alert */
-    code span.an { color: #494957; } /* Annotation */
-    code span.at { color: #775781; } /* Attribute */
-    code span.bn { color: #ae4240; } /* BaseN */
-    code span.bu { } /* BuiltIn */
-    code span.cf { color: #956133; } /* ControlFlow */
-    code span.ch { color: #618157; } /* Char */
-    code span.cn { color: #956133; } /* Constant */
-    code span.co { color: #494957; } /* Comment */
-    code span.cv { color: #494957; font-style: italic; } /* CommentVar */
-    code span.do { color: #494957; font-style: italic; } /* Documentation */
-    code span.dt { color: #ae4240; } /* DataType */
-    code span.dv { color: #ae4240; } /* DecVal */
-    code span.er { color: #ae4240; } /* Error */
-    code span.ex { } /* Extension */
-    code span.fl { color: #ae4240; } /* Float */
-    code span.fu { color: #336695; } /* Function */
-    code span.im { color: #775781; } /* Import */
-    code span.in { color: #494957; } /* Information */
-    code span.kw { color: #2e2e2f; } /* Keyword */
-    code span.op { color: #494957; } /* Operator */
-    code span.ot { color: #494957; } /* Other */
-    code span.pp { color: #ae4240; } /* Preprocessor */
-    code span.re { color: #336695; } /* RegionMarker */
-    code span.sc { color: #494957; } /* SpecialChar */
-    code span.ss { color: #618157; } /* SpecialString */
-    code span.st { color: #618157; } /* String */
-    code span.va { color: #2e2e2f; } /* Variable */
-    code span.vs { color: #618157; } /* VerbatimString */
-    code span.wa { color: #494957; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-  <link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <link rel="stylesheet" href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/dist/theme/quarto.css">
+  <link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
   .callout {
@@ -223,7 +157,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -405,181 +340,21 @@ Ella Kaye
 
   <p class="date">September 12, 2023</p>
 </section>
-<section id="introduction" class="slide level2">
-<h2>Introduction</h2>
-<p>This is a Quarto presentation format that is consistent with The University of Warwick’s <a href="https://id7.warwick.ac.uk">ID7 branding</a> (especially <a href="https://id7.warwick.ac.uk/components/colour-palette/">colours</a> and <a href="https://warwick.ac.uk/services/its/servicessupport/web/sitebuilder2/id7/faqs/fonts/">font</a>).</p>
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>It is <em>not</em>, however, a University of Warwick branded presentation in the sense that it does not feature the university logo, nor has it been officially signed-off by whoever would need to sign-off such things.</p>
-</div>
-</div>
-</div>
-<aside class="notes">
-<p>Speaker notes go here.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section>
-<section id="inverse-class-for-section-headings" class="title-slide slide level1 inverse center">
-<h1>inverse class for section headings</h1>
-
-</section>
-<section id="inverse-class-is-also-useful-for-stressing-key-points." class="slide level2 inverse center-h center larger125">
-<h2>inverse class is also useful for stressing <em>key points</em>.</h2>
-</section>
-<section id="colours" class="slide level2">
-<h2>Colours</h2>
-<p>There’s a colour for inline code such as <code>x &lt;- c(1, 3, 6)</code> and <code>{.inverse}</code>.</p>
-<p>There’s also a colour for short <a href="https://github.com/Warwick-Stats-Resources/warwickpres">links</a> and full ones like <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a>.</p>
-</section>
-<section id="colours-1" class="slide level2 inverse">
-<h2>Colours</h2>
-<p>There’s a colour for inline code such as <code>x &lt;- c(1, 3, 6)</code> and <code>{.inverse}</code>.</p>
-<p>There’s also a colour for short <a href="https://github.com/Warwick-Stats-Resources/warwickpres">links</a> and full ones like <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a>.</p>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
 <ul>
-<li>The inline code and link colours change when the inverse class is applied.</li>
-<li>I wouldn’t recommend using inverse class for a slide with this much text though.</li>
+<li><p>The original event</p></li>
+<li><p>Very short intro to EDIA</p></li>
+<li><p>Introductions</p></li>
+<li><p>Discussion (questions on slides)</p></li>
+<li><p>Questions from the audience</p></li>
 </ul>
 </section>
-<section id="code" class="slide level2">
-<h2>Code</h2>
-<p>The extension includes a custom syntax highlighting theme:</p>
-<div class="cell" data-layout-align="center">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span>(dplyr)</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">library</span>(palmerpenguins)</span>
-<span id="cb1-3"><a href="#cb1-3"></a></span>
-<span id="cb1-4"><a href="#cb1-4"></a>penguins <span class="sc">%&gt;%</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-6"><a href="#cb1-6"></a>    <span class="at">long_flipper =</span> <span class="fu">case_when</span>(</span>
-<span id="cb1-7"><a href="#cb1-7"></a>      species <span class="sc">==</span> <span class="st">"Adelie"</span> <span class="sc">&amp;</span> flipper_length_mm <span class="sc">&gt;</span> <span class="dv">195</span> <span class="sc">~</span> <span class="cn">TRUE</span>,</span>
-<span id="cb1-8"><a href="#cb1-8"></a>      species <span class="sc">==</span> <span class="st">"Chinstrap"</span> <span class="sc">&amp;</span> flipper_length_mm <span class="sc">&gt;</span> <span class="dv">200</span> <span class="sc">~</span> <span class="cn">TRUE</span>,</span>
-<span id="cb1-9"><a href="#cb1-9"></a>      species <span class="sc">==</span> <span class="st">"Gentoo"</span> <span class="sc">&amp;</span> flipper_length_mm <span class="sc">&gt;</span> <span class="dv">225</span> <span class="sc">~</span> <span class="cn">TRUE</span>,</span>
-<span id="cb1-10"><a href="#cb1-10"></a>      <span class="cn">TRUE</span> <span class="sc">~</span> <span class="cn">FALSE</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a>    )</span>
-<span id="cb1-12"><a href="#cb1-12"></a>  ) <span class="sc">%&gt;%</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a>  <span class="fu">mutate</span>(</span>
-<span id="cb1-14"><a href="#cb1-14"></a>    <span class="at">body_mass_kg =</span> body_mass_g <span class="sc">/</span> <span class="dv">1000</span>,</span>
-<span id="cb1-15"><a href="#cb1-15"></a>    <span class="at">bill_length_cm =</span> bill_length_mm <span class="sc">/</span> <span class="dv">10</span>,</span>
-<span id="cb1-16"><a href="#cb1-16"></a>    <span class="at">bill_depth_cm =</span> bill_depth_mm <span class="sc">/</span> <span class="dv">10</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="warwickplots" class="slide level2">
-<h2>warwickplots</h2>
-<p>TODO: expand on the link between the theme and {warwickplots}, once finished (include adding <code>theme_warwick()</code>, giving link to warwickplots repo). Also, split out code and output (tabset?) on this slide.</p>
-
-<img data-src="2023-09-12_diveRSE_EDIA-panel-report_files/figure-revealjs/unnamed-chunk-2-1.png" width="1920" class="r-stretch quarto-figure-center"></section>
-<section id="callouts" class="slide level2 smaller70">
-<h2>Callouts</h2>
-<p>There are custom colours for callouts:</p>
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>A note</p>
-</div>
-</div>
-</div>
-<div class="callout callout-warning no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Warning</strong></p>
-</div>
-<div class="callout-content">
-<p>A warning</p>
-</div>
-</div>
-</div>
-<div class="callout callout-important no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Important</strong></p>
-</div>
-<div class="callout-content">
-<p>Something important</p>
-</div>
-</div>
-</div>
-<div class="callout callout-tip no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>This is a good idea</p>
-</div>
-</div>
-</div>
-<div class="callout callout-caution no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Caution</strong></p>
-</div>
-<div class="callout-content">
-<p>Be careful about doing this</p>
-</div>
-</div>
-</div>
-<p>These require a raw html chunk at the end of the presentation .qmd file (included in template).</p>
-</section></section>
-<section>
-<section id="non-warwick-specific-nice-to-haves" class="title-slide slide level1 inverse center">
-<h1>Non-Warwick-specific nice-to-haves</h1>
-
-</section>
-<section id="alignment" class="slide level2">
-<h2>Alignment</h2>
-<p>There are classes to help with text alignment:</p>
-<div class="center-h">
-<p><code>{.center-h}</code> gives horizontally-centered text</p>
-</div>
-<div class="right">
-<p><code>{.right}</code> gives right-aligned text</p>
-</div>
-<div class="callout callout-note no-icon callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>For all revealjs Quarto presentations, applying <code>{.center}</code> to the slide title vertically centers the whole slide.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="sizing" class="slide level2">
-<h2>Sizing</h2>
-<p>There are classes to help size text by a given percentage:</p>
-<p><span class="smaller90"><code>{.smaller90}</code></span>, <span class="smaller80"><code>{.smaller80}</code></span>, <span class="smaller75"><code>{.smaller75}</code></span> <span class="smaller70"><code>{.smaller70}</code></span>, <span class="smaller60"><code>{.smaller60}</code></span>, <span class="smaller50"><code>{.smaller50}</code></span></p>
-<p><span class="larger125"><code>{.larger125}</code></span>, <span class="larger150"><code>{.larger150}</code></span>, <span class="larger175"><code>{.larger175}</code></span>, <span class="larger200"><code>{.larger200}</code></span>, <span class="larger250"><code>{.larger250}</code></span></p>
-</section>
-<section id="todo" class="slide level2">
-<h2>TODO</h2>
+<section id="the-orginal-event" class="title-slide slide level1 inverse center">
+<h1>The orginal event</h1>
 <ul>
-<li>Maybe take some ideas from? <a href="https://github.com/malcolmbarrett/kakashi-quarto-theme">kakashi</a> theme</li>
+<li></li>
 </ul>
-</section>
-<section id="more-information" class="slide level2">
-<h2>More Information</h2>
-<p>You can learn more about controlling the appearance of RevealJS output here: <a href="https://quarto.org/docs/presentations/revealjs/" class="uri">https://quarto.org/docs/presentations/revealjs/</a></p>
-</section>
-<section id="how-to-edit-the-themesee-available-classes" class="slide level2">
-<h2>How to edit the theme/see available classes</h2>
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
 <!-- requires Quarto v1.3 -->
 <!-- tint80 for border, tint20 for title -->
@@ -626,27 +401,29 @@ div.callout-warning.callout-style-default .callout-title {
   background-color: #e4d8cc !important;
 }
 </style>
+<div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
-</section></section>
+</div>
+</section>
     </div>
   </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/dist/reveal.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/dist/reveal.js"></script>
   <!-- reveal.js plugins -->
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/search/search.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="2023-09-12_diveRSE_EDIA-panel-report_files/libs/revealjs/plugin/math/math.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="2023-09-12_diveRSE_EDIA-conversation_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -656,7 +433,6 @@ div.callout-warning.callout-style-default .callout-title {
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': true,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -841,44 +617,6 @@ div.callout-warning.callout-style-default .callout-title {
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
@@ -955,10 +693,27 @@ div.callout-warning.callout-style-default .callout-title {
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              if (link.getAttribute("rel") === null) {
+                link.setAttribute("rel", "noopener");
+              }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -968,8 +723,17 @@ div.callout-warning.callout-style-default .callout-title {
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -1023,20 +787,6 @@ div.callout-warning.callout-style-default .callout-title {
           });
         }
       }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-              // target, if specified
-              link.setAttribute("target", "_blank");
-          }
-        }
     });
     </script>
     
